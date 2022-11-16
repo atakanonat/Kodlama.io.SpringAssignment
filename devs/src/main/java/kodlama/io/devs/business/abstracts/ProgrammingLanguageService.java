@@ -2,10 +2,10 @@ package kodlama.io.devs.business.abstracts;
 
 import java.util.List;
 
-import kodlama.io.devs.business.requests.CreateProgrammingLanguageRequest;
-import kodlama.io.devs.business.requests.UpdateProgrammingLanguageRequest;
-import kodlama.io.devs.business.responses.GetAllProgrammingLanguagesResponse;
-import kodlama.io.devs.business.responses.GetByIdProgrammingLanguageResponse;
+import kodlama.io.devs.business.requests.programmingLanguage.CreateProgrammingLanguageRequest;
+import kodlama.io.devs.business.requests.programmingLanguage.UpdateProgrammingLanguageRequest;
+import kodlama.io.devs.business.responses.programmingLanguage.GetAllProgrammingLanguagesResponse;
+import kodlama.io.devs.business.responses.programmingLanguage.GetByIdProgrammingLanguageResponse;
 
 public interface ProgrammingLanguageService {
 	

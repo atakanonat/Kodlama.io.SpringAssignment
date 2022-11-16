@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import kodlama.io.devs.business.abstracts.ProgrammingLanguageService;
-import kodlama.io.devs.business.requests.CreateProgrammingLanguageRequest;
-import kodlama.io.devs.business.requests.UpdateProgrammingLanguageRequest;
-import kodlama.io.devs.business.responses.GetAllProgrammingLanguagesResponse;
-import kodlama.io.devs.business.responses.GetByIdProgrammingLanguageResponse;
+import kodlama.io.devs.business.requests.programmingLanguage.CreateProgrammingLanguageRequest;
+import kodlama.io.devs.business.requests.programmingLanguage.UpdateProgrammingLanguageRequest;
+import kodlama.io.devs.business.responses.programmingLanguage.GetAllProgrammingLanguagesResponse;
+import kodlama.io.devs.business.responses.programmingLanguage.GetByIdProgrammingLanguageResponse;
 import kodlama.io.devs.dataAccess.abstracts.ProgrammingLanguageRepository;
 import kodlama.io.devs.entities.concretes.ProgrammingLanguage;
 

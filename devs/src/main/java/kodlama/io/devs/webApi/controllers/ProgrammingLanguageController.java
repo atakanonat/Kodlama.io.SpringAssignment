@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 import kodlama.io.devs.business.abstracts.ProgrammingLanguageService;
-import kodlama.io.devs.business.requests.CreateProgrammingLanguageRequest;
-import kodlama.io.devs.business.requests.UpdateProgrammingLanguageRequest;
-import kodlama.io.devs.business.responses.GetAllProgrammingLanguagesResponse;
-import kodlama.io.devs.business.responses.GetByIdProgrammingLanguageResponse;
+import kodlama.io.devs.business.requests.programmingLanguage.CreateProgrammingLanguageRequest;
+import kodlama.io.devs.business.requests.programmingLanguage.UpdateProgrammingLanguageRequest;
+import kodlama.io.devs.business.responses.programmingLanguage.GetAllProgrammingLanguagesResponse;
+import kodlama.io.devs.business.responses.programmingLanguage.GetByIdProgrammingLanguageResponse;
 
 @RestController
 @RequestMapping("/api/programminglanguages")
